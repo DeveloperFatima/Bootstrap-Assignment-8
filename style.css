@@ -1,0 +1,261 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+}
+.navbar{
+    background: linear-gradient(90deg, #00095e, #0c0c1f);
+    height: 40.2rem;
+}
+.navbar-brand, .btn , .nav-item , .navbar-toggler{
+    margin-bottom: 550px;
+}
+.nav-item{
+    position: relative;
+    left: 50px;
+    margin-left: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.navbar-brand{
+    margin-left: 80px;
+}
+.nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+.btn{
+    margin-right: 50px;
+    width: 11rem;
+    height: 7vh;
+    margin-top: 10px;
+    background: none !important;
+    font-family: "Josefin Sans", sans-serif !important;
+    border: 2px solid white !important;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #fff !important;
+    color: #FF4495 !important;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.h1{
+    position: relative;
+    bottom: 430px;
+    margin-left: 100px;
+    font-size: 62px !important;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.4 !important;
+    right: 110px;
+}
+.img-fluid{
+    position: relative;
+    left: 250px;
+    bottom: 700px;
+}
+#naxly{
+    position: relative;
+    bottom: 960px;
+    margin-left: 100px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.4 !important;
+    right: 110px;
+}
+#serve{
+    position: relative;
+    top: -710px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center !important;
+    left: -30px;
+    color: #FF4495;
+}
+@media (max-width: 300px){
+    .img-fluid{
+        display: none;
+    }
+    header{
+        width: 500px;
+    }
+    .h1{
+        font-size: 50px !important;
+    }
+    #naxly{
+        position: relative;
+        top: -420px;
+    }
+    .position-relative{
+        top: -180px !important;
+        left: 100px !important;
+    }
+    #serve{
+        top: -200px !important;
+        left: 80px;
+    }
+}
+.position-relative{
+    position: relative;
+    top: -700px;
+    text-align: center;
+    text-align-last: center;
+    left: -10px;
+    color: #00095e;
+    font-family: "Josefin Sans", sans-serif;
+}
+.card-img-top{
+    height: 10vh;
+    position: relative;
+    top: 7px;
+}
+.card{
+    position: relative;
+    top: -690px;
+    transition: 0.3s ease;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #FF4495, #f74d55);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+.card:hover .overlay{
+    height: 100%;
+    color: white;
+}
+.card-img-top{
+    z-index: 1;
+    position: relative;
+    top: 65px;
+}
+.card-body{
+    z-index: 1;
+}
+.bg-overlay{
+    width: 100px;
+    height: 550px !important;
+    background-color: #fff;
+    position: relative;
+    bottom: 10px;
+    left: 93px;
+    border-radius: 50%;
+}
+.card{
+    margin-left: 22px;
+}
+#container{
+    background-color: #F6F9FC;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    bottom: 600px;
+    left: -1px;
+}
+.card-title , .card-text{
+    font-family: "Josefin Sans", sans-serif;
+}
+.about{
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+#boot{
+    position: absolute;
+    left: 800px !important;
+    top: 90px;
+    font-size: 45px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #00095e;
+}
+.shadow{
+    position: relative;
+    left: 370px;
+    width: 65%;
+    height: 17vh;
+    background-color: #fff;
+    bottom: 150px;
+}
+#new{
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+.notify{
+    position: relative;
+    left: 740px;
+    top: -400px;
+}
+#engage{
+    position: relative;
+    left: 850px;
+    top: -490px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #00095e;
+}
+#class{
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    left: 850px;
+    top: -480px;
+    line-height: 1.5;
+}
+#card:hover , #cards:hover , #cardss:hover , #car:hover{
+    background-color: #00095e79 !important;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+#card{
+    margin-left: 25px !important;
+}
+#cards{
+    margin-left: -10px !important;
+}
+#cardss{
+    margin-left: -45px !important;
+}
+#car{
+    margin-left: -80px;
+}
+#row{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+#btns{
+    margin-left: 280px; 
+    width: 11rem; 
+    height: 7vh; 
+    margin-top: 390px; 
+    background: none !important; 
+    font-family: "Josefin Sans", sans-serif !important; 
+    border: 2px solid #FF4495 !important; 
+    transition: 0.3s; 
+    color: #FF4495;
+}
+#btns:hover{
+    background-color: #00095e !important;
+    color: #fff;
+    border: none !important;
+    cursor: pointer;
+}
+#image:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1) !important;
+    transition: 0.3s;
+}
+.text-dark:hover{
+    text-decoration: underline !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
